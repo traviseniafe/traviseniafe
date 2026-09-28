@@ -70,5 +70,5 @@ Every flagship project aims to include:
 
 ## Get in touch
 
-- LinkedIn: [your link]
-- Email: [your email]
+- LinkedIn: [https://www.linkedin.com/in/eniafe/]
+- Email: [traniafe@gmail.com]
