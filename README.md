@@ -1,25 +1,17 @@
-<!--
-HOW TO USE THIS FILE
-1. Replace everything in [square brackets] with your own details.
-2. Delete any section you can't honestly fill yet. A short, true README beats a long, padded one.
-3. Save it as README.md in your special profile repo (the repo named exactly: traviseniafe).
-4. Update the "Now" and "Projects" sections whenever something changes.
--->
-
 # Hi, I'm Eniafe 👋
 
 **MSc Cybersecurity student at the University of West London** · BSc Artificial Intelligence & Computer Science, University of Birmingham
 
-I build security tools and machine-learning systems, and I document the reasoning behind each design choice, not just the code. I'm using my master's to combine my AI background with security engineering.
+I build security tools and machine-learning systems, and document the reasoning behind my design choices. I'm using my master's to combine my AI background with security engineering.
 
 ---
 
 ## What I'm focused on
 
-- **Software supply-chain security**: knowing what your software is made of and whether it is safe
+- **Software supply-chain security**: understanding which libraries software uses and whether they have known vulnerabilities
 - **Security monitoring and detection**: turning raw logs and signals into useful alerts
 - **AI systems and their security**: building models, then testing how they fail
-- **Learning in public**: every project has a "what I learned" section
+- **Learning in public**: documenting what I learn through each project
 
 ---
 
@@ -27,11 +19,12 @@ I build security tools and machine-learning systems, and I document the reasonin
 
 | Project | The problem it explores | Stack | Status |
 |---|---|---|---|
-| [**supply-chain-scanner**](https://github.com/traviseniafe/supply-chain-scanner) | Organisations can't easily tell which vulnerable libraries sit inside their software | Python, OSV API | 🚧 In progress |
-| [**detection**](https://github.com/traviseniafe/detection) | Detecting emergency situations from audio (and later vision) and raising alerts | Python, FastAPI, ML | 🚧 In progress |
-| [**Jobtracker**](https://github.com/traviseniafe/Jobtracker) | Tracking job applications and their status | Java | ✅ Complete (early project) || [**Prompt Injection Test Harness**](https://github.com/traviseniafe/injection) | Testing direct and indirect prompt-injection attempts and checking for protected-phrase leaks | Python, OpenAI API | 🚧 In progress |
+| [**supply-chain-scanner**](https://github.com/traviseniafe/supply-chain-scanner) | Organisations need to know which vulnerable libraries are in their software | Python, OSV API | 🚧 In progress |
+| [**detection**](https://github.com/traviseniafe/detection) | Detecting emergency situations from audio, and later vision, and raising alerts | Python, FastAPI, ML | 🚧 In progress |
+| [**Prompt Injection Test Harness**](https://github.com/traviseniafe/injection) | Testing how direct prompts and instructions embedded in notes or emails affect an AI target | Python, OpenAI API | 🚧 In progress |
+| [**Jobtracker**](https://github.com/traviseniafe/Jobtracker) | Tracking job applications and their status | Java | ✅ Complete (early project) |
 
-**Planned next:** secrets scanner (pre-commit hook) · mini-SIEM for log anomaly detection · LLM prompt-injection test harness
+**Planned next:** secrets scanner (pre-commit hook) · mini-SIEM for log anomaly detection
 
 > Status key: ✅ complete · 🚧 in progress (working, with a roadmap) · 🗺️ planned
 
@@ -42,7 +35,7 @@ I build security tools and machine-learning systems, and I document the reasonin
 Every flagship project aims to include:
 
 - A plain-English **problem statement** and **design decisions**
-- **Tests** and automated checks (GitHub Actions)
+- **Tests** and automated checks with GitHub Actions
 - An honest **limitations and roadmap** section
 - One-command **setup** so anyone can run it
 
@@ -50,25 +43,23 @@ Every flagship project aims to include:
 
 ## Skills
 
-- **Languages:** Python (strongest), Java (learning)
+- **Languages:** Python, Java
 - **Backend and APIs:** FastAPI
 - **Machine learning:** audio classification, model training and evaluation
-- **Security:** [add topics as your modules cover them, e.g. threat modelling, vulnerability management]
-- **Tools:** Git and GitHub, VS Code
-
-<!-- Only list what you can explain in an interview. Add to this list as you genuinely learn things. -->
+- **Security:** dependency vulnerability scanning, prompt-injection testing
+- **Tools:** Git, GitHub, VS Code
 
 ---
 
 ## Now
 
-- 🔨 Building: supply-chain-scanner (dependency parsing → vulnerability lookup → risk report)
-- 📚 Studying: [current module or topic]
-- 🎯 Next: [what you plan to build or learn]
+- 🔨 **Building:** Prompt Injection Test Harness — adding indirect attacks embedded in notes and emails to the existing direct-injection tests
+- 📚 **Studying:** MSc Cybersecurity at the University of West London
+- 🎯 **Next:** Expand the indirect attack examples and document the harness's limitations
 
 ---
 
 ## Get in touch
 
-- LinkedIn: [https://www.linkedin.com/in/eniafe/]
-- Email: [traniafe@gmail.com]
+- LinkedIn: [linkedin.com/in/eniafe](https://www.linkedin.com/in/eniafe/)
+- Email: [traniafe@gmail.com](mailto:traniafe@gmail.com)
