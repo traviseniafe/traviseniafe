@@ -29,7 +29,7 @@ I build security tools and machine-learning systems, and I document the reasonin
 |---|---|---|---|
 | [**supply-chain-scanner**](https://github.com/traviseniafe/supply-chain-scanner) | Organisations can't easily tell which vulnerable libraries sit inside their software | Python, OSV API | 🚧 In progress |
 | [**detection**](https://github.com/traviseniafe/detection) | Detecting emergency situations from audio (and later vision) and raising alerts | Python, FastAPI, ML | 🚧 In progress |
-| [**Jobtracker**](https://github.com/traviseniafe/Jobtracker) | Tracking job applications and their status | Java | ✅ Complete (early project) |
+| [**Jobtracker**](https://github.com/traviseniafe/Jobtracker) | Tracking job applications and their status | Java | ✅ Complete (early project) || [**Prompt Injection Test Harness**](https://github.com/traviseniafe/injection) | Testing direct and indirect prompt-injection attempts and checking for protected-phrase leaks | Python, OpenAI API | 🚧 In progress |
 
 **Planned next:** secrets scanner (pre-commit hook) · mini-SIEM for log anomaly detection · LLM prompt-injection test harness
 
